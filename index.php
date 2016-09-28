@@ -1,9 +1,8 @@
 <?php
-require 'libs/Smarty.class.php';
+include_once('global.php');
 
-$smarty = new Smarty;
-
-$smarty->assign("test", 12213);
+$smarty->assign('title', 'smarty-base');
+$smarty->assign('body', 'smarty-base is index');
 
 $smarty->display('index.tpl');
 ?>
