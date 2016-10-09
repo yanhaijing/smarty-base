@@ -1,7 +1,7 @@
 <?php
 $mydbhost            = "localhost";
 $mydbuser            = "root";
-$mydbpw              = "123456";
+$mydbpw              = "";
 $mydbname            = "test";
 $mydbcharset         = "utf8";
 

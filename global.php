@@ -1,9 +1,9 @@
 <?php
 include_once ('config/config.php');
-include_once ('lib/smarty-3.1.5/Smarty.class.php');
+include_once ('lib/smarty-3.1.31/Smarty.class.php');
 include_once ('common/mysql.class.php');
 
-// $db = new Mysql($mydbhost, $mydbuser, $mydbpw, $mydbname, ALL_PS, $mydbcharset);
+$db = new Mysql($mydbhost, $mydbuser, $mydbpw, $mydbname, ALL_PS, $mydbcharset);
 
 // ********smarty**********
 $smarty = new smarty();
